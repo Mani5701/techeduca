@@ -1,0 +1,599 @@
+@media (min-width: 440px) and (max-width: 660px) {
+  .section-p1 {
+    padding: 40px 0px;
+  }
+
+  /* nav res css */
+
+  nav {
+    padding: 1vw 2vw;
+  }
+  #arrow {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 18px;
+    color: rgba(21, 21, 100);
+    /* cursor: pointer; */
+  }
+  #arrow:hover {
+    color: #fdc93b;
+  }
+  #toggle-btn {
+    display: initial;
+    margin-right: 50px;
+    font-size: 20px;
+    right: -300px;
+    color: rgba(21, 21, 100);
+    cursor: pointer;
+  }
+  #toggle-btn:hover {
+    color: #fdc93b;
+  }
+  #navigation.active {
+    right: 0px;
+  }
+  #navigation {
+    transition: 0.3s ease-in;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #fff;
+    padding: 50px 10px;
+  }
+  #navigation li {
+    margin-right: 0px;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  /* hero res css */
+
+  .hero-desc {
+    text-align: center;
+    margin: 70px 20px 0px 0px;
+  }
+  .hero-desc h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  .hero-desc p {
+    padding: 0px 0px;
+    line-height: 22px;
+  }
+  .blue-btn {
+    padding: 10px 20px;
+  }
+  .yellow-btn {
+    padding: 10px 11px;
+  }
+
+  /* feature res css */
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .feature-box {
+    margin-right: 0px;
+    width: 350px;
+  }
+
+  /* form res css */
+
+  #form {
+    justify-content: flex-start;
+  }
+  .time-cont {
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    width: 100px;
+    padding: 5px 2px;
+  }
+  .time {
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  .signup-form {
+    height: 55vh;
+    padding: 30px 30px;
+    margin-right: 0px;
+  }
+
+  /* footer res css */
+
+  .coloumn-box {
+    margin: 30px 20px;
+  }
+  .copyrights {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 20px;
+  }
+
+  /* team res css */
+
+  .team-box {
+    width: 300px;
+    margin: 25px 7px;
+  }
+  .team-container {
+    justify-content: center;
+  }
+
+  /* about page res css */
+
+  #about-header {
+    height: 50vh;
+    margin-top: 70px;
+  }
+
+  #banner1 {
+    padding: 70px 30px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    margin-left: 0px;
+  }
+  .b1-desc {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px;
+    text-transform: capitalize;
+  }
+  .b1-desc h2 {
+    font-size: 23px;
+  }
+
+  .trustee-logo {
+    justify-content: center;
+  }
+  .trustee-logo img {
+    width: 100px;
+    margin: 30px;
+  }
+
+  /* blog res css */
+
+  #blog-header {
+    height: 50vh;
+    margin-top: 70px;
+  }
+  .blog-banner {
+    flex-direction: column;
+  }
+  .blog-desc {
+    width: 100%;
+    padding: 40px 10px;
+  }
+  .blog-desc1 {
+    width: 100%;
+    padding: 40px 10px;
+  }
+  .category {
+    width: 100%;
+    padding: 40px 10px;
+  }
+
+  /* post res css */
+
+  #post .blog-post {
+    width: 100%;
+  }
+
+  /* course-page res css */
+
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  #course-header {
+    height: 50vh;
+    margin-top: 70px;
+  }
+  #course-detail {
+    flex-wrap: wrap;
+  }
+  .leftside {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .leftside img {
+    height: 60vh;
+  }
+  .tutor img {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+  }
+  .tutor img {
+    width: 75px;
+    height: 75px;
+  }
+  .right-side {
+    width: 80%;
+    height: 70vh;
+    padding: 50px 60px;
+    margin: 30px 30px;
+  }
+
+  /* contact page res css */
+
+  #contact-header {
+    height: 50vh;
+    margin-top: 70px;
+  }
+  #contact-form {
+    flex-wrap: wrap;
+  }
+  .form-left {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .form-right {
+    width: 100%;
+  }
+  .f-btn {
+    width: 40%;
+  }
+}
+
+@media (min-width: 661px) and (max-width: 920px) {
+  .section-p1 {
+    padding: 30px 20px;
+  }
+
+  nav {
+    padding: 1vw 2vw;
+  }
+  #arrow {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 18px;
+    color: rgba(21, 21, 100);
+  }
+  #arrow:hover {
+    color: #fdc93b;
+  }
+  #toggle-btn {
+    display: initial;
+    margin-right: 50px;
+    font-size: 20px;
+    right: -300px;
+    color: rgba(21, 21, 100);
+    cursor: pointer;
+  }
+  #toggle-btn:hover {
+    color: #fdc93b;
+  }
+  #navigation.active {
+    right: 0px;
+  }
+  #navigation {
+    transition: 0.3s ease-in;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #fff;
+    padding: 50px 10px;
+    cursor: pointer;
+  }
+  #navigation li {
+    margin-right: 0px;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  /* hero res css */
+  #hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(images/back.jpg);
+    width: 100%;
+    height: 70vh;
+  }
+  .hero-desc {
+    text-align: center;
+    margin: 70px 30px 0px 30px;
+  }
+  .hero-desc h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  .hero-desc p {
+    padding: 0px 0px;
+    line-height: 25px;
+  }
+
+  .feature-box {
+    margin-right: 9px;
+    width: 290px;
+  }
+  .course-cont {
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .course-box {
+    width: 280px;
+    margin-right: 12px;
+  }
+
+  .time {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+  }
+  .time-cont {
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+    width: 70px;
+    padding: 5px 20px;
+  }
+
+  #form {
+    height: 600px;
+  }
+
+  .signup-form {
+    width: 310px;
+    height: 400px;
+    padding: 50px 20px 0px 20px;
+    margin-right: 10px;
+  }
+  .signup-form input {
+    margin-bottom: 15px;
+  }
+
+  .team-box {
+    width: 260px;
+    margin: 25px 15px;
+  }
+
+  footer {
+    background: #101c32;
+    padding: 20px 10px;
+  }
+  .coloumn-box {
+    margin: 30px 25px;
+  }
+
+  .copyrights {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  /* about page res css */
+
+  #about-header {
+    height: 70vh;
+    margin-top: 70px;
+  }
+
+  #banner1 {
+    padding: 50px 0px;
+  }
+  .banner-img {
+    width: 50%;
+  }
+  .banner-img img {
+    width: 95%;
+    height: 400px;
+    margin-left: 0px;
+  }
+  .b1-desc {
+    width: 50%;
+    margin-top: 0px;
+    padding: 20px 10px 0px 0px;
+    text-transform: capitalize;
+  }
+  .b1-desc h2 {
+    font-size: 18px;
+  }
+  .b1-icon {
+    margin-top: 10px;
+    display: flex;
+  }
+  .b1-icon img {
+    width: 55px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .trustee-logo {
+    justify-content: center;
+  }
+  .trustee-logo img {
+    width: 100px;
+    margin: 30px;
+  }
+
+  /* blog page res css */
+  .blog-desc {
+    padding: 40px 30px;
+  }
+  .blog-desc1 {
+    padding: 40px 30px;
+  }
+  .category {
+    padding: 40px 20px;
+  }
+
+  /* coursepage res css */
+
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+  #course-header {
+    height: 65vh;
+    margin-top: 70px;
+  }
+  #course-detail {
+    flex-wrap: wrap;
+  }
+  .leftside {
+    width: 90%;
+    /* padding: 0px 10px; */
+  }
+  .leftside img {
+    height: 50vh;
+  }
+  .tutor img {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+  }
+  .tutor img {
+    width: 75px;
+    height: 75px;
+  }
+  .right-side {
+    width: 60%;
+    height: 50vh;
+    padding: 50px 60px;
+    margin-top: 30px;
+  }
+
+  /* contact page res css */
+
+  #contact-header {
+    height: 60vh;
+    margin-top: 70px;
+  }
+  #contact-form {
+    flex-wrap: wrap;
+  }
+  .form-left {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .form-right {
+    width: 100%;
+  }
+  .f-btn {
+    width: 40%;
+  }
+}
+@media (min-width: 921px) and (max-width: 1023px) {
+  nav {
+    padding: 1vw 4vw;
+  }
+  .section-p1 {
+    padding: 40px 50px;
+  }
+  .feature-box {
+    margin-right: 30px;
+    width: 300px;
+  }
+  #form {
+    height: 600px;
+  }
+  .signup-form {
+    width: 330px;
+    height: 400px;
+    padding: 50px 20px 0px 20px;
+    margin-right: 10px;
+  }
+  .signup-form input {
+    margin-bottom: 15px;
+  }
+  .team-box {
+    padding: 20px 20px;
+    width: 280px;
+    margin: 25px 15px;
+  }
+  /* about page res css */
+
+  .banner-img {
+    width: 50%;
+  }
+  .banner-img img {
+    width: 100%;
+    height: 400px;
+    margin-left: 0px;
+  }
+  .b1-desc {
+    width: 50%;
+    margin-top: 0px;
+    padding: 20px 0px 0px 30px;
+    text-transform: capitalize;
+  }
+  .b1-desc h2 {
+    font-size: 18px;
+  }
+  .b1-icon {
+    margin-top: 20px;
+  }
+  .b1-icon img {
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  /* coursepage res css */
+
+  #course-header {
+    margin-top: 70px;
+  }
+  .leftside {
+    padding: 20px 10px;
+  }
+  .right-side {
+    padding: 40px 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+  /* contact page res css */
+
+  .form-left {
+    width: 40%;
+    padding: 40px 20px;
+  }
+  .form-left {
+    padding: 40px 20px;
+}
+.f-btn {
+    width: 35%;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1260px) {
+  .banner-img {
+    width: 50%;
+  }
+  .banner-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .b1-desc {
+    padding: 25px 25px 0px 25px;
+  }
+  .b1-desc h2 {
+    margin-bottom: 5px;
+  }
+  .b1-icon {
+    margin-top: 20px;
+  }
+}
